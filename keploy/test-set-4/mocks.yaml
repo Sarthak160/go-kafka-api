@@ -1,0 +1,379 @@
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-0
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAAAswALAAEAAAABADVzYW1wbGVAbGltYS1kZWJpYW4tMTIgKGdpdGh1Yi5jb20vc2VnbWVudGlvL2thZmthLWdvKQANZXhhbXBsZS1ncm91cAAAdTAAAHUwAAAACGNvbnN1bWVyAAAAAgAFcmFuZ2UAAAAZAAEAAAABAA1leGFtcGxlLXRvcGlj/////wAKcm91bmRyb2JpbgAAABkAAQAAAAEADWV4YW1wbGUtdG9waWP/////
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAABRgAAAAEAAAAAAAsABXJhbmdlAFpzYW1wbGVAbGltYS1kZWJpYW4tMTIgKGdpdGh1Yi5jb20vc2VnbWVudGlvL2thZmthLWdvKS1iM2Q4NWMzOC01MTljLTQxNDUtODdiYi03ODI3YTQxMWYxMWEAWnNhbXBsZUBsaW1hLWRlYmlhbi0xMiAoZ2l0aHViLmNvbS9zZWdtZW50aW8va2Fma2EtZ28pLWIzZDg1YzM4LTUxOWMtNDE0NS04N2JiLTc4MjdhNDExZjExYQAAAAEAWnNhbXBsZUBsaW1hLWRlYmlhbi0xMiAoZ2l0aHViLmNvbS9zZWdtZW50aW8va2Fma2EtZ28pLWIzZDg1YzM4LTUxOWMtNDE0NS04N2JiLTc4MjdhNDExZjExYQAAABkAAQAAAAEADWV4YW1wbGUtdG9waWP/////
+    reqtimestampmock: 2024-03-07T09:42:53.703693305Z
+    restimestampmock: 2024-03-07T09:43:04.852170674Z
+---
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-1
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAAAPwASAAAAAAACADVzYW1wbGVAbGltYS1kZWJpYW4tMTIgKGdpdGh1Yi5jb20vc2VnbWVudGlvL2thZmthLWdvKQ==
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAABeAAAAAIAAAAAAD0AAAAAAAoAAQAAABAAAgAAAAgAAwAAAAwABAAAAAcABQAAAAQABgAAAAgABwAAAAMACAAAAAkACQAAAAkACgAAAAQACwAAAAkADAAAAAQADQAAAAUADgAAAAUADwAAAAUAEAAAAAQAEQAAAAEAEgAAAAMAEwAAAAcAFAAAAAYAFQAAAAIAFgAAAAQAFwAAAAQAGAAAAAQAGQAAAAMAGgAAAAMAGwAAAAEAHAAAAAMAHQAAAAMAHgAAAAMAHwAAAAMAIAAAAAQAIQAAAAIAIgAAAAIAIwAAAAQAJAAAAAIAJQAAAAMAJgAAAAMAJwAAAAIAKAAAAAIAKQAAAAMAKgAAAAIAKwAAAAIALAAAAAEALQAAAAAALgAAAAAALwAAAAAAMAAAAAEAMQAAAAEAMgAAAAAAMwAAAAAAOAAAAAMAOQAAAAEAOgAAAAAAPAAAAAEAPQAAAAAAQQAAAAAAQgAAAAAAQwAAAAAARAAAAAA=
+    reqtimestampmock: 2024-03-07T09:43:04.861384159Z
+    restimestampmock: 2024-03-07T09:43:04.861483155Z
+---
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-2
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAAAUwADAAYAAAADADVzYW1wbGVAbGltYS1kZWJpYW4tMTIgKGdpdGh1Yi5jb20vc2VnbWVudGlvL2thZmthLWdvKQAAAAEADWV4YW1wbGUtdG9waWMB
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAAAdQAAAAMAAAAAAAAAAQAAA+kACWxvY2FsaG9zdAAAI4T//wAWUUp1ZFBXZjJUUnU5Tk42bDVqNmVudwAAA+kAAAABAAAADWV4YW1wbGUtdG9waWMAAAAAAQAAAAAAAAAAA+kAAAABAAAD6QAAAAEAAAPpAAAAAA==
+    reqtimestampmock: 2024-03-07T09:43:04.86361245Z
+    restimestampmock: 2024-03-07T09:43:04.863630783Z
+---
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-3
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAABMwAOAAAAAAAEADVzYW1wbGVAbGltYS1kZWJpYW4tMTIgKGdpdGh1Yi5jb20vc2VnbWVudGlvL2thZmthLWdvKQANZXhhbXBsZS1ncm91cAAAAAsAWnNhbXBsZUBsaW1hLWRlYmlhbi0xMiAoZ2l0aHViLmNvbS9zZWdtZW50aW8va2Fma2EtZ28pLWIzZDg1YzM4LTUxOWMtNDE0NS04N2JiLTc4MjdhNDExZjExYQAAAAEAWnNhbXBsZUBsaW1hLWRlYmlhbi0xMiAoZ2l0aHViLmNvbS9zZWdtZW50aW8va2Fma2EtZ28pLWIzZDg1YzM4LTUxOWMtNDE0NS04N2JiLTc4MjdhNDExZjExYQAAACEAAQAAAAEADWV4YW1wbGUtdG9waWMAAAABAAAAAP////8=
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAAAKwAAAAQAAAAAACEAAQAAAAEADWV4YW1wbGUtdG9waWMAAAABAAAAAP////8=
+    reqtimestampmock: 2024-03-07T09:43:04.86792537Z
+    restimestampmock: 2024-03-07T09:43:04.867947286Z
+---
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-4
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAAAPwASAAAAAAABADVzYW1wbGVAbGltYS1kZWJpYW4tMTIgKGdpdGh1Yi5jb20vc2VnbWVudGlvL2thZmthLWdvKQ==
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAABeAAAAAEAAAAAAD0AAAAAAAoAAQAAABAAAgAAAAgAAwAAAAwABAAAAAcABQAAAAQABgAAAAgABwAAAAMACAAAAAkACQAAAAkACgAAAAQACwAAAAkADAAAAAQADQAAAAUADgAAAAUADwAAAAUAEAAAAAQAEQAAAAEAEgAAAAMAEwAAAAcAFAAAAAYAFQAAAAIAFgAAAAQAFwAAAAQAGAAAAAQAGQAAAAMAGgAAAAMAGwAAAAEAHAAAAAMAHQAAAAMAHgAAAAMAHwAAAAMAIAAAAAQAIQAAAAIAIgAAAAIAIwAAAAQAJAAAAAIAJQAAAAMAJgAAAAMAJwAAAAIAKAAAAAIAKQAAAAMAKgAAAAIAKwAAAAIALAAAAAEALQAAAAAALgAAAAAALwAAAAAAMAAAAAEAMQAAAAEAMgAAAAAAMwAAAAAAOAAAAAMAOQAAAAEAOgAAAAAAPAAAAAEAPQAAAAAAQQAAAAAAQgAAAAAAQwAAAAAARAAAAAA=
+    reqtimestampmock: 2024-03-07T09:43:04.87504456Z
+    restimestampmock: 2024-03-07T09:43:04.875635329Z
+---
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-5
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAAAZgACAAEAAAABADVzYW1wbGVAbGltYS1kZWJpYW4tMTIgKGdpdGh1Yi5jb20vc2VnbWVudGlvL2thZmthLWdvKf////8AAAABAA1leGFtcGxlLXRvcGljAAAAAQAAAAD//////////g==
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAAAMQAAAAEAAAABAA1leGFtcGxlLXRvcGljAAAAAQAAAAAAAP//////////AAAAAAAAAAA=
+    reqtimestampmock: 2024-03-07T09:43:04.882525152Z
+    restimestampmock: 2024-03-07T09:43:04.882589858Z
+---
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-6
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAAAZgACAAEAAAACADVzYW1wbGVAbGltYS1kZWJpYW4tMTIgKGdpdGh1Yi5jb20vc2VnbWVudGlvL2thZmthLWdvKf////8AAAABAA1leGFtcGxlLXRvcGljAAAAAQAAAAD//////////w==
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAAAMQAAAAIAAAABAA1leGFtcGxlLXRvcGljAAAAAQAAAAAAAP//////////AAAAAAAAAAY=
+    reqtimestampmock: 2024-03-07T09:43:04.883291582Z
+    restimestampmock: 2024-03-07T09:43:04.883302373Z
+---
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-7
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAAAZgACAAEAAAADADVzYW1wbGVAbGltYS1kZWJpYW4tMTIgKGdpdGh1Yi5jb20vc2VnbWVudGlvL2thZmthLWdvKf////8AAAABAA1leGFtcGxlLXRvcGljAAAAAQAAAAD//////////g==
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAAAMQAAAAMAAAABAA1leGFtcGxlLXRvcGljAAAAAQAAAAAAAP//////////AAAAAAAAAAA=
+    reqtimestampmock: 2024-03-07T09:43:04.883969223Z
+    restimestampmock: 2024-03-07T09:43:04.883980681Z
+---
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-8
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAAAZgACAAEAAAAEADVzYW1wbGVAbGltYS1kZWJpYW4tMTIgKGdpdGh1Yi5jb20vc2VnbWVudGlvL2thZmthLWdvKf////8AAAABAA1leGFtcGxlLXRvcGljAAAAAQAAAAD//////////w==
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAAAMQAAAAQAAAABAA1leGFtcGxlLXRvcGljAAAAAQAAAAAAAP//////////AAAAAAAAAAY=
+    reqtimestampmock: 2024-03-07T09:43:04.884764318Z
+    restimestampmock: 2024-03-07T09:43:04.884777817Z
+---
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-9
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAAAPwASAAAAAAAFADVzYW1wbGVAbGltYS1kZWJpYW4tMTIgKGdpdGh1Yi5jb20vc2VnbWVudGlvL2thZmthLWdvKQ==
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAABeAAAAAUAAAAAAD0AAAAAAAoAAQAAABAAAgAAAAgAAwAAAAwABAAAAAcABQAAAAQABgAAAAgABwAAAAMACAAAAAkACQAAAAkACgAAAAQACwAAAAkADAAAAAQADQAAAAUADgAAAAUADwAAAAUAEAAAAAQAEQAAAAEAEgAAAAMAEwAAAAcAFAAAAAYAFQAAAAIAFgAAAAQAFwAAAAQAGAAAAAQAGQAAAAMAGgAAAAMAGwAAAAEAHAAAAAMAHQAAAAMAHgAAAAMAHwAAAAMAIAAAAAQAIQAAAAIAIgAAAAIAIwAAAAQAJAAAAAIAJQAAAAMAJgAAAAMAJwAAAAIAKAAAAAIAKQAAAAMAKgAAAAIAKwAAAAIALAAAAAEALQAAAAAALgAAAAAALwAAAAAAMAAAAAEAMQAAAAEAMgAAAAAAMwAAAAAAOAAAAAMAOQAAAAEAOgAAAAAAPAAAAAEAPQAAAAAAQQAAAAAAQgAAAAAAQwAAAAAARAAAAAA=
+    reqtimestampmock: 2024-03-07T09:43:04.885396002Z
+    restimestampmock: 2024-03-07T09:43:04.88541396Z
+---
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-10
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAAACgASAAAAAAABAAA=
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAABeAAAAAEAAAAAAD0AAAAAAAoAAQAAABAAAgAAAAgAAwAAAAwABAAAAAcABQAAAAQABgAAAAgABwAAAAMACAAAAAkACQAAAAkACgAAAAQACwAAAAkADAAAAAQADQAAAAUADgAAAAUADwAAAAUAEAAAAAQAEQAAAAEAEgAAAAMAEwAAAAcAFAAAAAYAFQAAAAIAFgAAAAQAFwAAAAQAGAAAAAQAGQAAAAMAGgAAAAMAGwAAAAEAHAAAAAMAHQAAAAMAHgAAAAMAHwAAAAMAIAAAAAQAIQAAAAIAIgAAAAIAIwAAAAQAJAAAAAIAJQAAAAMAJgAAAAMAJwAAAAIAKAAAAAIAKQAAAAMAKgAAAAIAKwAAAAIALAAAAAEALQAAAAAALgAAAAAALwAAAAAAMAAAAAEAMQAAAAEAMgAAAAAAMwAAAAAAOAAAAAMAOQAAAAEAOgAAAAAAPAAAAAEAPQAAAAAAQQAAAAAAQgAAAAAAQwAAAAAARAAAAAA=
+    reqtimestampmock: 2024-03-07T09:43:07.549144647Z
+    restimestampmock: 2024-03-07T09:43:07.555178461Z
+---
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-11
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAAAaQAJAAEAAAAFADVzYW1wbGVAbGltYS1kZWJpYW4tMTIgKGdpdGh1Yi5jb20vc2VnbWVudGlvL2thZmthLWdvKQANZXhhbXBsZS1ncm91cAAAAAEADWV4YW1wbGUtdG9waWMAAAABAAAAAA==
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAAAKwAAAAUAAAABAA1leGFtcGxlLXRvcGljAAAAAQAAAAAAAAAAAAAABgAAAAA=
+    reqtimestampmock: 2024-03-07T09:43:04.86792537Z
+    restimestampmock: 2024-03-07T09:43:04.867947286Z
+---
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-12
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAAACgASAAAAAAABAAA=
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAABeAAAAAEAAAAAAD0AAAAAAAoAAQAAABAAAgAAAAgAAwAAAAwABAAAAAcABQAAAAQABgAAAAgABwAAAAMACAAAAAkACQAAAAkACgAAAAQACwAAAAkADAAAAAQADQAAAAUADgAAAAUADwAAAAUAEAAAAAQAEQAAAAEAEgAAAAMAEwAAAAcAFAAAAAYAFQAAAAIAFgAAAAQAFwAAAAQAGAAAAAQAGQAAAAMAGgAAAAMAGwAAAAEAHAAAAAMAHQAAAAMAHgAAAAMAHwAAAAMAIAAAAAQAIQAAAAIAIgAAAAIAIwAAAAQAJAAAAAIAJQAAAAMAJgAAAAMAJwAAAAIAKAAAAAIAKQAAAAMAKgAAAAIAKwAAAAIALAAAAAEALQAAAAAALgAAAAAALwAAAAAAMAAAAAEAMQAAAAEAMgAAAAAAMwAAAAAAOAAAAAMAOQAAAAEAOgAAAAAAPAAAAAEAPQAAAAAAQQAAAAAAQgAAAAAAQwAAAAAARAAAAAA=
+    reqtimestampmock: 2024-03-07T09:43:08.562726841Z
+    restimestampmock: 2024-03-07T09:43:08.565610108Z
+---
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-13
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAAArgAMAAAAAAAGADVzYW1wbGVAbGltYS1kZWJpYW4tMTIgKGdpdGh1Yi5jb20vc2VnbWVudGlvL2thZmthLWdvKQANZXhhbXBsZS1ncm91cAAAAAsAWnNhbXBsZUBsaW1hLWRlYmlhbi0xMiAoZ2l0aHViLmNvbS9zZWdtZW50aW8va2Fma2EtZ28pLWIzZDg1YzM4LTUxOWMtNDE0NS04N2JiLTc4MjdhNDExZjExYQ==
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAAABgAAAAYAAA==
+    reqtimestampmock: 2024-03-07T09:43:07.872651611Z
+    restimestampmock: 2024-03-07T09:43:07.872718109Z
+---
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-14
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAAArgAMAAAAAAAHADVzYW1wbGVAbGltYS1kZWJpYW4tMTIgKGdpdGh1Yi5jb20vc2VnbWVudGlvL2thZmthLWdvKQANZXhhbXBsZS1ncm91cAAAAAsAWnNhbXBsZUBsaW1hLWRlYmlhbi0xMiAoZ2l0aHViLmNvbS9zZWdtZW50aW8va2Fma2EtZ28pLWIzZDg1YzM4LTUxOWMtNDE0NS04N2JiLTc4MjdhNDExZjExYQ==
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAAABgAAAAcAAA==
+    reqtimestampmock: 2024-03-07T09:43:10.872569585Z
+    restimestampmock: 2024-03-07T09:43:10.872623416Z
+---
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-15
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAAAjwABAAoAAAAGADVzYW1wbGVAbGltYS1kZWJpYW4tMTIgKGdpdGh1Yi5jb20vc2VnbWVudGlvL2thZmthLWdvKf////8AACMnAAAnEACYlscAAAAAAP////8AAAABAA1leGFtcGxlLXRvcGljAAAAAQAAAAD/////AAAAAAAAAAYAAAAAAAAAAACYlscAAAAA
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAAAqQAAAAYAAAAAAAAAAAAAAAAAAQANZXhhbXBsZS10b3BpYwAAAAEAAAAAAAAAAAAAAAAABwAAAAAAAAAHAAAAAAAAAAD/////AAAAXgAAAAAAAAAGAAAAUgAAAAACO72u9gAAAAAAAAAAAY4YS44VAAABjhhLjhX//////////////////wAAAAFAAAAAHEtleS0xNzA5ODA0NTg3GEhlbGxvIFdvcmxkMgA=
+    reqtimestampmock: 2024-03-07T09:43:13.889345932Z
+    restimestampmock: 2024-03-07T09:43:13.889397971Z
+---
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-16
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAAArgAMAAAAAAAIADVzYW1wbGVAbGltYS1kZWJpYW4tMTIgKGdpdGh1Yi5jb20vc2VnbWVudGlvL2thZmthLWdvKQANZXhhbXBsZS1ncm91cAAAAAsAWnNhbXBsZUBsaW1hLWRlYmlhbi0xMiAoZ2l0aHViLmNvbS9zZWdtZW50aW8va2Fma2EtZ28pLWIzZDg1YzM4LTUxOWMtNDE0NS04N2JiLTc4MjdhNDExZjExYQ==
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAAABgAAAAgAAA==
+    reqtimestampmock: 2024-03-07T09:43:13.873401698Z
+    restimestampmock: 2024-03-07T09:43:13.873582025Z
+---
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-17
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAAA2wAIAAIAAAAJADVzYW1wbGVAbGltYS1kZWJpYW4tMTIgKGdpdGh1Yi5jb20vc2VnbWVudGlvL2thZmthLWdvKQANZXhhbXBsZS1ncm91cAAAAAsAWnNhbXBsZUBsaW1hLWRlYmlhbi0xMiAoZ2l0aHViLmNvbS9zZWdtZW50aW8va2Fma2EtZ28pLWIzZDg1YzM4LTUxOWMtNDE0NS04N2JiLTc4MjdhNDExZjExYf//////////AAAAAQANZXhhbXBsZS10b3BpYwAAAAEAAAAAAAAAAAAAAAcAAA==
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAAAIQAAAAkAAAABAA1leGFtcGxlLXRvcGljAAAAAQAAAAAAAA==
+    reqtimestampmock: 2024-03-07T09:43:13.898699288Z
+    restimestampmock: 2024-03-07T09:43:13.898761452Z
+---
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-18
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAAArgAMAAAAAAAKADVzYW1wbGVAbGltYS1kZWJpYW4tMTIgKGdpdGh1Yi5jb20vc2VnbWVudGlvL2thZmthLWdvKQANZXhhbXBsZS1ncm91cAAAAAsAWnNhbXBsZUBsaW1hLWRlYmlhbi0xMiAoZ2l0aHViLmNvbS9zZWdtZW50aW8va2Fma2EtZ28pLWIzZDg1YzM4LTUxOWMtNDE0NS04N2JiLTc4MjdhNDExZjExYQ==
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAAABgAAAAoAAA==
+    reqtimestampmock: 2024-03-07T09:43:16.876377322Z
+    restimestampmock: 2024-03-07T09:43:16.876504942Z
+---
+version: api.keploy.io/v1beta1
+kind: Generic
+name: mock-19
+spec:
+    metadata:
+        type: config
+    genericrequests:
+        - origin: client
+          message:
+            - type: binary
+              data: AAAArgAMAAAAAAALADVzYW1wbGVAbGltYS1kZWJpYW4tMTIgKGdpdGh1Yi5jb20vc2VnbWVudGlvL2thZmthLWdvKQANZXhhbXBsZS1ncm91cAAAAAsAWnNhbXBsZUBsaW1hLWRlYmlhbi0xMiAoZ2l0aHViLmNvbS9zZWdtZW50aW8va2Fma2EtZ28pLWIzZDg1YzM4LTUxOWMtNDE0NS04N2JiLTc4MjdhNDExZjExYQ==
+    genericresponses:
+        - origin: server
+          message:
+            - type: binary
+              data: AAAABgAAAAsAAA==
+    reqtimestampmock: 2024-03-07T09:43:19.869815103Z
+    restimestampmock: 2024-03-07T09:43:19.869837435Z
